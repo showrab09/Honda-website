@@ -1,0 +1,66 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.front {
+  background-color: #264653;
+}
+.btn-color {
+  background-color: #e76f51;
+  color: white;
+}
+span {
+  color: #e76f51;
+}
+
+.titl {
+  font-size: 48px;
+  font-weight: 600;
+}
+.feature h1,
+.blog h1,
+.review h1,
+.faq h1,
+.gallery h1,
+.vdo h1 {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 72px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+hr {
+  width: 5%;
+  margin: auto;
+  margin-bottom: 50px;
+  color: red;
+}
+.bw img {
+  filter: grayscale(100%);
+}
+.fa-star {
+  color: #e77c40;
+}
+.review img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.hov {
+  transition: 0.2s;
+}
+.hov:hover {
+  transform: translateY(-20px);
+}
+footer {
+  background-color: #0b0d17;
+}
+footer img {
+  width: 100px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
